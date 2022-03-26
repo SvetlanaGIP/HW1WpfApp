@@ -1,0 +1,31 @@
+﻿<Window x:Class="HW1WpfApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HW1WpfApp"
+        mc:Ignorable="d"
+        Background="Transparent"
+        Title="Calculator" Height="400" Width="700">
+    <Grid>
+        <TextBlock Background="#4CFFFFFF" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="50,50,0,0" TextWrapping="Wrap"  Height="50" Width="600"/>
+        <Button Content="1" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="50,150,0,0" Height="25" Width="100" Background="Red"/>
+        <Button Content="2" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="200,150,0,0" Height="25" Width="100" Background="#FFFF4900"/>
+        <Button Content="3" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="350,150,0,0" Height="25" Width="100" Background="#FFFF9C00"/>
+        <Button Content="4" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="50,200,0,0" Height="25" Width="100" Background="#FFF4FF00"/>
+        <Button Content="5" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="200,200,0,0" Height="25" Width="100" Background="#FF62FF00"/>
+        <Button Content="6" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="350,200,0,0" Height="25" Width="100" Background="#FF00FFA8"/>
+        <Button Content="7" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="50,250,0,0" Height="25" Width="100" Background="#FF00F1FF"/>
+        <Button Content="8" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="200,250,0,0" Height="25" Width="100" Background="#FF0068FF"/>
+        <Button Content="9" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="350,250,0,0" Height="25" Width="100" Background="#FF9900FF"/>
+        <Button Content="0" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="50,300,0,0" Height="25" Width="100" Background="#FFFF00CA"/>
+        <Button Content="." HorizontalAlignment="Left" VerticalAlignment="Top" Margin="200,300,0,0" Height="25" Width="100" Background="#FFFF00A5"/>
+        <Button Content="=" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="350,300,0,0" Height="25" Width="100" Background="#FFFF0089"/>
+        <Button Content="+" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="550,150,0,0" Height="25" Width="100" Background="#FFA8A8A8"/>
+        <Button Content="-" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="550,200,0,0" Height="25" Width="100" Background="Gray"/>
+        <Button Content="*" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="550,250,0,0" Height="25" Width="100" Background="#FF656565"/>
+        <Button Content="/" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="550,300,0,0" Height="25" Width="100" Background="#FF4C4C4C"/>
+        
+
+    </Grid>
+</Window>
